@@ -1,0 +1,36 @@
+:root{
+    --color-primary: #eb5757;
+    --text-color:#333333;
+    --denim-blue: #395292
+}
+body{
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+.fix--padding {
+    padding: 0;
+}
+
+.navbar-toggler-fix {
+    background-color: #fff;
+    position: relative;
+    left: -16px
+}
+
+
+
+
+
+.btn--primary{
+    background-color: var(--color-primary);
+    border: none;
+    padding: 20px 72px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff;
+}
+.btn--primary:hover{
+    opacity: 0.8;
+    color: #ffffff;
+}
